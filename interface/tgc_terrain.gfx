@@ -1,0 +1,10 @@
+SpriteTypes = {
+	spriteType = {
+		name = GFX_terrain_necron_territory
+		textureFile = gfx/interface/terrains/terrain_necrons.dds
+	}
+	spriteType = {
+		name = GFX_terrain_necron_territory_winter
+		textureFile = gfx/interface/terrains/terrain_necrons.dds
+	}
+}

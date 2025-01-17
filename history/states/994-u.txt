@@ -1,0 +1,15 @@
+state={
+	id=994
+	name="STATE_994"
+	provinces={
+		4962 10884 13509 13510 13512 13513 13514 13515 13516 13517 13518 13519 13520 13521 13522 13523 13524 13525 13526 13527 13528 13529 13530 13532 13533 13534 13535 13536 
+	}
+	state_category = wasteland
+	history = {
+		owner = FRA
+
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

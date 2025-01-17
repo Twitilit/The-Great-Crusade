@@ -1,0 +1,15 @@
+state={
+	id=995
+	name="STATE_995"
+	provinces={
+		1043 4903 8061 8077 13378 13379 13380 13383 13384 13385 13386 13387 13389 13390 13508 13511 13557 13728 13729 13730 13806 
+	}
+	state_category = wasteland
+	history = {
+		owner = FRA
+
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+version="0.0.1"
+replace_path="history/states"
+replace_path="map/strategicregions"
+tags={
+	"Alternative History"
+	"Events"
+	"Gameplay"
+	"Historical"
+	"Map"
+	"National Focuses"
+	"Technologies"
+	"Military"
+	"Ideologies"
+}
+name="Great Crusade"
+supported_version="1.15.3"

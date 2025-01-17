@@ -1,0 +1,12 @@
+state = {
+	id = 983
+	name = "STATE_983"
+	manpower = 10000000
+	state_category = wasteland
+	history = {
+		owner = FRA
+	}
+	provinces = {
+		5095 13416 13494 13424 13418 13419 13403 13420 13421 13422 13423 13406 2068
+	} 
+}

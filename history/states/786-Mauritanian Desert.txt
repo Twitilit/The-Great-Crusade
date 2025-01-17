@@ -1,0 +1,15 @@
+state={
+	id=786
+	name="STATE_1002"
+	provinces={
+		1962 8035 13460 13462 13467 13468 13469 13470 13471 13472 13473 13474 13475 13476 13477 13479 13480 13482 13483 13484 13485 
+	}
+	state_category = wasteland
+	history = {
+		owner = FRA
+
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
