@@ -1,0 +1,23 @@
+state={
+	id=1003
+	name="STATE_1003"
+	manpower = 3694611
+	
+	state_category = rural
+	
+	history={
+		add_core_of = MAD
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+			
+		}
+
+	}
+
+	provinces={
+		2200 8246 12956 13923 13924 13925 13926 13927 13928 13929 13930 13931 13932 13933 13934 13935 13936 13937 13938 13939 13940 13941
+	}
+
+	local_supplies=0.0 
+}
