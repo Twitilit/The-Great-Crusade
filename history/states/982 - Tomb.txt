@@ -1,13 +1,22 @@
 state = {
 	id = 982
 	name = "STATE_982"
-	manpower = 10000000
-	state_category = wasteland
+	manpower = 0
+	state_category = necron_state_cat
 	history = {
-		owner = FRA
-
+		owner = NEC
+		add_core_of = NEC
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+			infrastructure = 1
+		}
+		victory_points = {
+			13366 50
+		}
 	}
 	provinces = {
 		13366 13410 13411 13412 13413 13414 13415
 	}
+	local_supplies = 10
 }

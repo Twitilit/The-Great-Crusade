@@ -4,7 +4,7 @@ state = {
 	manpower = 10000000
 	state_category = wasteland
 	history = {
-		owner = FRA
+		owner = ALG
 	}
 	provinces = {
 		13417 13371 13373 13374 13372 13493 13376 13497 13505 13731

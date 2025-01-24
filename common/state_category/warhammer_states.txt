@@ -1,0 +1,6 @@
+state_categories={
+    necron_state_cat = {
+        color = { 76 175 80 }
+        local_building_slots = 14
+    }
+}

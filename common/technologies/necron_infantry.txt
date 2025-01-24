@@ -1,0 +1,37 @@
+technologies = {
+	@1936 = 0
+	@1938 = 1
+	@1939 = 2
+	@1940 = 4
+	@1941 = 6
+	@1942 = 8
+	@1943 = 10
+	@1944 = 12
+	@1945 = 14
+	@1946 = 16
+	necron_gauss_flayer_tech_1 = {
+
+		enable_equipments = {
+			necron_gauss_flayer_0
+		}
+		
+		enable_subunits = {
+			necron_warriors
+		}	
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = -2 y = -1 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,44 @@
+objectTypes = {
+	pdxmesh = {
+		name = "necron_warriors_mesh"
+		file = "gfx/models/units/necrons/necron_warrior.mesh"
+		
+		animation = {
+			id = "idle"
+			type = "necron_warriors_idle_anim"
+		}
+		animation = {
+			id = "idle2"
+			type = "necron_warriors_idle_2_anim"
+		}
+		animation = {
+			id = "idle3"
+			type = "necron_warriors_idle_3_anim"
+		}
+		animation = {
+			id = "move"
+			type = "necron_warriors_move_anim"
+		}
+
+		animation = {
+			id = "attack1"
+			type = "necron_warriors_attack_1_anim"
+		}
+		animation = {
+			id = "attack2"
+			type = "necron_warriors_attack_2_anim"
+		}
+		animation = {
+			id = "death"
+			type = "necron_warrior_die_anim"
+		}
+		meshsettings = {
+			name = "necron_warrior_2_dif"
+			index = 0
+			texture_diffuse = "nec_warrior.dds"
+			#texture_normal = "nec_warrior_normal.dds"
+			#texture_specular = "nec_warrior_spec.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+}
