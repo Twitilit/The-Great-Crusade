@@ -323,3 +323,4 @@ IAS = "countries/Isthmo Amerindia.txt"
 
 # MOD
 NEC = "countries/Anahet Dynasty.txt"
+TAU = "countries/Tau Imperia.txt"
