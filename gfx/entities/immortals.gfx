@@ -1,0 +1,44 @@
+objectTypes = {
+	pdxmesh = {
+		name = "immortals_mesh"
+		file = "gfx/models/units/necrons/necron_immortal.mesh"
+
+		animation = {
+			id = "idle"
+			type = "immortals_idle_anim"
+		}
+		animation = {
+			id = "idle2"
+			type = "immortals_idle_2_anim"
+		}
+		animation = {
+			id = "idle3"
+			type = "immortals_idle_3_anim"
+		}
+		animation = {
+			id = "move"
+			type = "immortals_move_anim"
+		}
+
+		animation = {
+			id = "attack1"
+			type = "immortals_attack_1_anim"
+		}
+		animation = {
+			id = "attack2"
+			type = "immortals_attack_2_anim"
+		}
+		animation = {
+			id = "death"
+			type = "immortals_die_anim"
+		}
+		meshsettings = {
+			name = "immortal_pdxmaterial"
+			index = 0
+			texture_diffuse = "necron_immortal.dds"
+			#texture_normal = "nec_warrior_normal.dds"
+			#texture_specular = "nec_warrior_spec.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+}

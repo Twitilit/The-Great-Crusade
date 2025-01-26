@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_necron_infantry_techtree_bg"
+		textureFile = "gfx//interface//techtree//necron_infantry_techtree_bg.dds"
+	}
+}

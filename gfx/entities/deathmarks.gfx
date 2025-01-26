@@ -1,0 +1,52 @@
+objectTypes = {
+	pdxmesh = {
+		name = "deathmarks_mesh"
+		file = "gfx/models/units/necrons/necron_deathmark.mesh"
+		
+		animation = {
+			id = "idle"
+			type = "deathmarks_idle_anim"
+		}
+		animation = {
+			id = "idle2"
+			type = "deathmarks_idle_2_anim"
+		}
+		animation = {
+			id = "idle3"
+			type = "deathmarks_idle_3_anim"
+		}
+		animation = {
+			id = "move"
+			type = "deathmarks_move_anim"
+		}
+
+		animation = {
+			id = "attack1"
+			type = "deathmarks_attack_1_anim"
+		}
+		animation = {
+			id = "attack2"
+			type = "deathmarks_attack_2_anim"
+		}
+		animation = {
+			id = "death"
+			type = "necron_warrior_die_anim"
+		}
+		meshsettings = {
+			name = "deathmark_main_pdx_material"
+			index = 0
+			texture_diffuse = "necron_immortal.dds"
+			#texture_normal = "nec_warrior_normal.dds"
+			#texture_specular = "nec_warrior_spec.dds"
+			shader = PdxMeshAdvanced
+		}
+		meshsettings = {
+			name = "deathmark_weapon_pdx_material"
+			index = 1
+			texture_diffuse = "necron_deathmark_texture_main.dds"
+			#texture_normal = "nec_warrior_normal.dds"
+			#texture_specular = "nec_warrior_spec.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+}

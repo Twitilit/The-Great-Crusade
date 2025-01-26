@@ -3781,19 +3781,19 @@ guiTypes = {
 				clipping = no
 
 				iconType = {
-					name ="infantry_techtree_bg"
-					spriteType = "GFX_infantry_techtree_bg"
+					name ="necrons_infantry_techtree_bg"
+					spriteType = "GFX_necron_infantry_techtree_bg"
 					position = { x=0 y=0 }
 					alwaystransparent = yes
 				}
 
 				instantTextBoxType = {
-					name = "infantry_subtitle_weapons"
-					position = { x = 30 y = 100 }
+					name = "necrons_subtitle_warriors"
+					position = { x = 200 y = 70 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_WEAPONS"
+					text = "NECRONS_INFANTRY_TITLE_WARRIORS"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
@@ -3801,38 +3801,12 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "infantry_subtitle_specialists"
-					position = { x = 40 y = 950 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_SPECIAL"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "infantry_subtitle_motorized"
-					position = { x = 30 y = 510 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_MOTORISED"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "infantry_year2"
-					position = { x = 130 y = 50 }
+					name = "necrons_infantry_tier1"
+					position = { x = 50 y = 170 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1918"
+					text = "TIER I"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -3840,12 +3814,12 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "infantry_year3"
-					position = { x = 270 y = 50 }
+					name = "necrons_infantry_tier2"
+					position = { x = 50 y = 300 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1936"
+					text = "TIER II"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -3853,11 +3827,11 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "infantry_year5"
-					position = { x = 410 y = 50 }
+					name = "necrons_infantry_tier3"
+					position = { x = 50 y = 430 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1938"
+					text = "TIER III"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -3865,11 +3839,11 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "infantry_year6"
-					position = { x = 550 y = 50 }
+					name = "necrons_infantry_tier4"
+					position = { x = 50 y = 560 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1939"
+					text = "TIER IV"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -3877,81 +3851,11 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "infantry_year7"
-					position = { x = 690 y = 50 }
+					name = "necrons_infantry_tier5"
+					position = { x = 50 y = 690 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1940"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "infantry_year8"
-					position = { x = 830 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1941"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "infantry_year9"
-					position = { x = 970 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1942"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "infantry_year10"
-					position = { x = 1110 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1943"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "infantry_year11"
-					position = { x = 1250 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1944"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "infantry_year12"
-					position = { x = 1390 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1945"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "infantry_year13"
-					position = { x = 1530 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1946"
+					text = "TIER V"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -3970,6 +3874,48 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "necron_gauss_flayer_tech_1_tree"
+				position = { x = 140 y = 325 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+
+			}
+			gridboxtype = {
+				name = "necron_gauss_blaster_tech_1_tree"
+				position = { x = 140 y = 325 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+
+			}
+			gridboxtype = {
+				name = "necron_tesla_carbine_tech_1_tree"
+				position = { x = 140 y = 325 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+
+			}
+			gridboxtype = {
+				name = "necron_swords_and_shields_tech_1_tree"
+				position = { x = 140 y = 325 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+
+			}
+			gridboxtype = {
+				name = "necron_necron_warscythe_tech_1_tree"
+				position = { x = 140 y = 325 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+
+			}
+			gridboxtype = {
+				name = "necron_necron_synaptic_disintegrator_tech_1_tree"
+				position = { x = 140 y = 325 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+
+			}
+			gridboxtype = {
+				name = "necron_necron_flayer_claws_tech_1_tree"
 				position = { x = 140 y = 325 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"

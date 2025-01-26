@@ -649,4 +649,23 @@ script_enum_equipment_bonus_type = {
 	#####NECORNS
 	necron_gauss_flayer
 	necron_gauss_flayer_0
+	necron_gauss_flayer_1
+	necron_gauss_blaster
+	necron_gauss_blaster_0
+	necron_gauss_blaster_1
+	necron_tesla_carbine
+	necron_tesla_carbine_0
+	necron_tesla_carbine_1
+	necron_swords_and_shields
+	necron_swords_and_shields_0
+	necron_swords_and_shields_1
+	necron_warscythe
+	necron_warscythe_0
+	necron_warscythe_1
+	necron_synaptic_disintegrator
+	necron_synaptic_disintegrator_0
+	necron_synaptic_disintegrator_1
+	necron_flayer_claws
+	necron_flayer_claws_0
+	necron_flayer_claws_1
 }

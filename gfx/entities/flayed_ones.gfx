@@ -1,0 +1,44 @@
+objectTypes = {
+	pdxmesh = {
+		name = "flayed_ones_mesh"
+		file = "gfx/models/units/necrons/necron_flayed_one.mesh"
+		
+		animation = {
+			id = "idle"
+			type = "flayed_ones_idle_anim"
+		}
+		animation = {
+			id = "idle2"
+			type = "flayed_ones_idle_2_anim"
+		}
+		animation = {
+			id = "idle3"
+			type = "flayed_ones_idle_3_anim"
+		}
+		animation = {
+			id = "move"
+			type = "flayed_ones_move_anim"
+		}
+
+		animation = {
+			id = "attack1"
+			type = "flayed_ones_attack_1_anim"
+		}
+		animation = {
+			id = "attack2"
+			type = "flayed_ones_attack_2_anim"
+		}
+		animation = {
+			id = "death"
+			type = "flayed_ones_die_anim"
+		}
+		meshsettings = {
+			name = "flayed_one_pdx_material"
+			index = 0
+			texture_diffuse = "nec_flayed_one.dds"
+			#texture_normal = "nec_warrior_normal.dds"
+			#texture_specular = "nec_warrior_spec.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+}

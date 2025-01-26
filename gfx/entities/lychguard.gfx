@@ -1,0 +1,44 @@
+objectTypes = {
+	pdxmesh = {
+		name = "lychguard_mesh"
+		file = "gfx/models/units/necrons/necron_lychguard.mesh"
+
+		animation = {
+			id = "idle"
+			type = "lychguard_idle_anim"
+		}
+		animation = {
+			id = "idle2"
+			type = "lychguard_idle_2_anim"
+		}
+		animation = {
+			id = "idle3"
+			type = "lychguard_idle_3_anim"
+		}
+		animation = {
+			id = "move"
+			type = "lychguard_move_anim"
+		}
+
+		animation = {
+			id = "attack1"
+			type = "lychguard_attack_1_anim"
+		}
+		animation = {
+			id = "attack2"
+			type = "lychguard_attack_2_anim"
+		}
+		animation = {
+			id = "death"
+			type = "lychguard_die_anim"
+		}
+		meshsettings = {
+			name = "lychguard_pdx_material"
+			index = 0
+			texture_diffuse = "nec_pariah.dds"
+			#texture_normal = "nec_warrior_normal.dds"
+			#texture_specular = "nec_warrior_spec.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+}

@@ -30,4 +30,387 @@ sub_units = {
 			necron_gauss_flayer = 200
 		}
 	}
+	immortals = {
+		sprite = immortals
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+		}
+		group = infantry
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			necron_gauss_blaster = 200
+		}
+	}
+	immortals_small = {
+		sprite = immortals
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+			support
+		}
+		group = combat_support
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			necron_gauss_blaster = 200
+		}
+	}
+
+	immortals_tesla = {
+		sprite = immortals
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+		}
+		group = infantry
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			necron_tesla_carbine = 200
+		}
+	}
+	immortals_tesla_small = {
+		sprite = immortals
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+			support
+		}
+		group = combat_support
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			necron_tesla_carbine = 200
+		}
+	}
+
+	lychguard_swords = {
+		sprite = lychguard
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+		}
+		group = infantry
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			necron_swords_and_shields = 200
+		}
+	}
+	lychguard_swords_small = {
+		sprite = lychguard
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+			support
+		}
+		group = combat_support
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			necron_swords_and_shields = 200
+		}
+	}
+
+	lychguard_warscythe = {
+		sprite = lychguard
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+		}
+		group = infantry
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			necron_warscythe = 200
+		}
+	}
+	lychguard_warscythe_small = {
+		sprite = lychguard
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+			support
+		}
+		group = combat_support
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			necron_warscythe = 200
+		}
+	}
+
+	deathmarks = {
+		sprite = deathmarks
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+		}
+		group = infantry
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			necron_synaptic_disintegrator = 200
+		}
+	}
+	deathmarks_small = {
+		sprite = deathmarks
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+			support
+		}
+		group = combat_support
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			necron_synaptic_disintegrator = 200
+		}
+	}
+
+	flayed_ones = {
+		sprite = flayed_ones
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+		}
+		group = infantry
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			necron_flayer_claws = 200
+		}
+	}
+	flayed_ones_small = {
+		sprite = flayed_ones
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+			support
+		}
+		group = combat_support
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			necron_flayer_claws = 200
+		}
+	}
 }

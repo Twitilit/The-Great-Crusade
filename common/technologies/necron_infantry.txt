@@ -9,6 +9,7 @@ technologies = {
 	@1944 = 12
 	@1945 = 14
 	@1946 = 16
+	###WARRIORS
 	necron_gauss_flayer_tech_1 = {
 
 		enable_equipments = {
@@ -23,7 +24,170 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = necron_infantry_folder
-			position = { x = -2 y = -1 }
+			position = { x = -2 y = 1 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	####IMMORTALS
+	necron_gauss_blaster_tech_1 = {
+
+		enable_equipments = {
+			necron_gauss_blaster_0
+		}
+		
+		enable_subunits = {
+			immortals
+			immortals_small
+		}	
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = -2 y = 5 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	###IMMORTALS TESLA
+	necron_tesla_carbine_tech_1 = {
+
+		enable_equipments = {
+			necron_tesla_carbine_0
+		}
+		
+		enable_subunits = {
+			immortals_tesla
+			immortals_tesla_small
+		}	
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	###LYCHGUARD SWORDS AND SHIELDS
+	necron_swords_and_shields_tech_1 = {
+
+		enable_equipments = {
+			necron_swords_and_shields_0
+		}
+		
+		enable_subunits = {
+			lychguard_swords
+			lychguard_swords_small
+		}	
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = -2 y = 12 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	### LYCHGUARD (Warscythe)
+	necron_necron_warscythe_tech_1 = {
+
+		enable_equipments = {
+			necron_warscythe_0
+		}
+		
+		enable_subunits = {
+			lychguard_warscythe
+			lychguard_warscythe_small
+		}	
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = -2 y = 15 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	###DEATHMARKS
+	necron_necron_synaptic_disintegrator_tech_1 = {
+
+		enable_equipments = {
+			necron_synaptic_disintegrator_0
+		}
+		
+		enable_subunits = {
+			deathmarks
+			deathmarks_small
+		}	
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = -2 y = 19 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	###Flayed Ones
+	necron_necron_flayer_claws_tech_1 = {
+
+		enable_equipments = {
+			necron_flayer_claws_0
+		}
+		
+		enable_subunits = {
+			flayed_ones
+			flayed_ones_small
+		}	
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = -2 y = 23 }
 		}
 		
 		categories = {
