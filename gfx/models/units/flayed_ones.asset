@@ -20,7 +20,7 @@ animation = {
 
 animation = {
 	name = "flayed_ones_attack_1_anim"
-	file = "necrons/necron_warrior_flayed_one_attack_1.anim"
+	file = "necrons/necron_flayed_one_attack_1.anim"
 }
 
 animation = {

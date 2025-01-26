@@ -30,7 +30,7 @@ objectTypes = {
 		}
 		animation = {
 			id = "death"
-			type = "necron_warrior_die_anim"
+			type = "deathmarks_die_anim"
 		}
 		meshsettings = {
 			name = "deathmark_main_pdx_material"
