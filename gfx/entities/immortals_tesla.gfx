@@ -1,0 +1,52 @@
+objectTypes = {
+	pdxmesh = {
+		name = "immortals_tesla_mesh"
+		file = "gfx/models/units/necrons/necron_immortal_tesla.mesh"
+
+		animation = {
+			id = "idle"
+			type = "immortals_tesla_idle_anim"
+		}
+		animation = {
+			id = "idle2"
+			type = "immortals_tesla_idle_2_anim"
+		}
+		animation = {
+			id = "idle3"
+			type = "immortals_tesla_idle_3_anim"
+		}
+		animation = {
+			id = "move"
+			type = "immortals_tesla_move_anim"
+		}
+
+		animation = {
+			id = "attack1"
+			type = "immortals_tesla_attack_1_anim"
+		}
+		animation = {
+			id = "attack2"
+			type = "immortals_tesla_attack_2_anim"
+		}
+		animation = {
+			id = "death"
+			type = "immortals_tesla_die_anim"
+		}
+		meshsettings = {
+			name = "immortal_main_pdx_material"
+			index = 0
+			texture_diffuse = "necron_immortal.dds"
+			#texture_normal = "nec_warrior_normal.dds"
+			#texture_specular = "nec_warrior_spec.dds"
+			shader = PdxMeshAdvanced
+		}
+		meshsettings = {
+			name = "immortal_tesla_pdx_material"
+			index = 1
+			texture_diffuse = "necron_tesla_barge_weapons.dds"
+			#texture_normal = "nec_warrior_normal.dds"
+			#texture_specular = "nec_warrior_spec.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+}

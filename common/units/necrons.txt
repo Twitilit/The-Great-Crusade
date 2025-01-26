@@ -95,7 +95,7 @@ sub_units = {
 	}
 
 	immortals_tesla = {
-		sprite = immortals
+		sprite = immortals_tesla
 		map_icon_category = infantry
 		priority = 600
 		ai_priority = 100
@@ -126,7 +126,7 @@ sub_units = {
 		}
 	}
 	immortals_tesla_small = {
-		sprite = immortals
+		sprite = immortals_tesla
 		map_icon_category = infantry
 		priority = 600
 		ai_priority = 100

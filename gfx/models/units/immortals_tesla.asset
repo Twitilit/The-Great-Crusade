@@ -1,0 +1,112 @@
+animation = {
+	name = "immortals_tesla_idle_anim"
+	file = "necrons/necron_immortal_tesla_idle.anim"
+}
+
+animation = {
+	name = "immortals_tesla_idle_2_anim"
+	file = "necrons/necron_immortal_tesla_idle_2.anim"
+}
+
+animation = {
+	name = "immortals_tesla_idle_3_anim"
+	file = "necrons/necron_immortal_tesla_idle_3.anim"
+}
+
+animation = {
+	name = "immortals_tesla_move_anim"
+	file = "necrons/necron_immortal_tesla_move.anim"
+}
+
+animation = {
+	name = "immortals_tesla_attack_1_anim"
+	file = "necrons/necron_immortal_tesla_attack_1.anim"
+}
+
+animation = {
+	name = "immortals_tesla_attack_2_anim"
+	file = "necrons/necron_immortal_tesla_attack_2.anim"
+}
+
+animation = {
+	name = "immortals_tesla_die_anim"
+	file = "necrons/necron_immortal_tesla_die.anim"
+}
+
+entity = {
+	name = "immortals_tesla_entity"
+	pdxmesh = "immortals_tesla_mesh"
+	default_state = "idle"
+	scale = 3.0
+	state = {
+		name = "idle"
+		animation = "idle"
+		chance = 5
+	}
+	state = {
+		name = "idle"
+		animation = "idle3"
+		next_state = "idle"
+		looping = no
+		chance = 3
+	}
+	state = {
+		name = "idle"
+		animation = "idle2"
+		next_state = "idle"
+		looping = no
+		chance = 4
+	}
+	state = {
+		name = "move"
+		animation = "move"
+		animation_blend_time = 0.0
+		animation_speed = 0.5
+		looping = yes
+		chance = 1
+	}
+	state = {
+		name = "defend"
+		animation = "attack1"
+		animation_blend_time = 0.0
+		animation_speed = 1.0
+		looping = yes
+		chance = 10
+	}
+	state = {
+		name = "attack"
+		animation = "attack2"
+		animation_blend_time = 1.0
+		animation_speed = 1.0
+		looping = yes
+		next_state = "attack"
+		chance = 10
+	}
+	state = {
+		name = "support_attack"
+		animation = "attack2"
+		animation_blend_time = 1.0
+		animation_speed = 1.0
+		looping = yes
+		next_state = "support_attack"
+		chance = 10
+	}
+
+	state = {
+		name = "retreat"
+		animation = "move"
+		animation_blend_time = 1.0
+		animation_speed = 1.0
+		looping = no
+		chance = 100
+	}
+
+	state = {
+		name = "death"
+		animation = "death"
+		animation_blend_time = 1.0
+		animation_speed = 1.0
+		looping = no
+		chance = 100
+	}
+}
