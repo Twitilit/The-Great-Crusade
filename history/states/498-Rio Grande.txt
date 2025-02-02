@@ -7,7 +7,7 @@ state = {
 	state_category = town # Was city
 
 	resources = {
-		tungsten = 3
+		exotic_elements = 3
 	}
 
 	history = {

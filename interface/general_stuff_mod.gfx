@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_resources_strip"
+		texturefile = "gfx/interface/resources_strip.dds"
+		noOfFrames = 6
+	}
+	spriteType = {
+		name = "GFX_missing_resources_strip"
+		texturefile = "gfx/interface/missing_resources_strip.dds"
+		noOfFrames = 6
+	}
+}
+
+bitmapfonts = {
+	bitmapfont = {
+        name = "warhammer_33"
+        fontfiles = {
+            "gfx/fonts/warhammer_33"
+        }
+        color = 0xffffffff
+    }
+}

@@ -3,4 +3,136 @@ spriteTypes = {
 		name = "GFX_necron_infantry_techtree_bg"
 		textureFile = "gfx//interface//techtree//necron_infantry_techtree_bg.dds"
 	}
+
+	####INFANTRY
+	spriteType = {
+		name = "GFX_necron_gauss_flayer_tech_1_medium"
+		textureFile = "gfx/interface/technologies/Gauss_Flayer_1.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_gauss_flayer_tech_2_medium"
+		textureFile = "gfx/interface/technologies/Gauss_Flayer_tech_2.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_gauss_flayer_tech_3_medium"
+		textureFile = "gfx/interface/technologies/Gauss_Flayer_tech_3.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_gauss_flayer_tech_4_medium"
+		textureFile = "gfx/interface/technologies/Gauss_Flayer_tech_4.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_gauss_flayer_tech_5_medium"
+		textureFile = "gfx/interface/technologies/Gauss_Flayer_tech_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_necron_gauss_blaster_tech_1_medium"
+		textureFile = "gfx/interface/technologies/Gauss_Blaster_1.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_gauss_blaster_tech_2_medium"
+		textureFile = "gfx/interface/technologies/Gauss_Blaster_tech_2.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_gauss_blaster_tech_3_medium"
+		textureFile = "gfx/interface/technologies/Gauss_Blaster_tech_3.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_gauss_blaster_tech_4_medium"
+		textureFile = "gfx/interface/technologies/Gauss_Blaster_tech_4.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_gauss_blaster_tech_5_medium"
+		textureFile = "gfx/interface/technologies/Gauss_Blaster_tech_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_necron_tesla_carbine_tech_1_medium"
+		textureFile = "gfx/interface/technologies/Tesla_Carabine_1.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_tesla_carbine_tech_2_medium"
+		textureFile = "gfx/interface/technologies/Tesla_Carabine_tech_2.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_tesla_carbine_tech_3_medium"
+		textureFile = "gfx/interface/technologies/Tesla_Carabine_tech_3.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_tesla_carbine_tech_4_medium"
+		textureFile = "gfx/interface/technologies/Tesla_Carabine_tech_4.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_tesla_carbine_tech_5_medium"
+		textureFile = "gfx/interface/technologies/Tesla_Carabine_tech_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_necron_synaptic_disintegrator_tech_1_medium"
+		textureFile = "gfx/interface/technologies/Synaptek_Disintegrator_1.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_synaptic_disintegrator_tech_2_medium"
+		textureFile = "gfx/interface/technologies/Synaptek_Disintegrator_tech_2.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_synaptic_disintegrator_tech_3_medium"
+		textureFile = "gfx/interface/technologies/Synaptek_Disintegrator_tech_3.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_synaptic_disintegrator_tech_4_medium"
+		textureFile = "gfx/interface/technologies/Synaptek_Disintegrator_tech_4.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_synaptic_disintegrator_tech_5_medium"
+		textureFile = "gfx/interface/technologies/Synaptek_Disintegrator_tech_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_necron_flayer_claws_tech_1_medium"
+		textureFile = "gfx/interface/technologies/Flayer_claws_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_necron_swords_and_shields_tech_1_medium"
+		textureFile = "gfx/interface/technologies/Swords_and_shields_1.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_swords_and_shields_tech_2_medium"
+		textureFile = "gfx/interface/technologies/Swords_and_shields_tech_2.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_swords_and_shields_tech_3_medium"
+		textureFile = "gfx/interface/technologies/Swords_and_shields_tech_3.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_swords_and_shields_tech_4_medium"
+		textureFile = "gfx/interface/technologies/Swords_and_shields_tech_4.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_swords_and_shields_tech_5_medium"
+		textureFile = "gfx/interface/technologies/Swords_and_shields_tech_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_necron_warscythe_tech_1_medium"
+		textureFile = "gfx/interface/technologies/Warscythe_1.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_warscythe_tech_2_medium"
+		textureFile = "gfx/interface/technologies/Warscythe_tech_2.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_warscythe_tech_3_medium"
+		textureFile = "gfx/interface/technologies/Warscythe_tech_3.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_warscythe_tech_4_medium"
+		textureFile = "gfx/interface/technologies/Warscythe_tech_4.dds"
+	}
+	spriteType = {
+		name = "GFX_necron_warscythe_tech_5_medium"
+		textureFile = "gfx/interface/technologies/Warscythe_tech_5.dds"
+	}
 }

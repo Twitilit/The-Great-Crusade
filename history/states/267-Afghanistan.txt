@@ -7,7 +7,7 @@ state={
 	state_category = town
 	
 	resources={
-		tungsten=3 # was: 3
+		exotic_elements=3 # was: 3
 	}
 	history={
 		owner = AFG

@@ -6,8 +6,8 @@ state = {
 	manpower = 690043
 
 	resources = {
-		chromium = 16
-		tungsten = 4
+		technologies = 16
+		exotic_elements = 4
 	}
 
 	history = {

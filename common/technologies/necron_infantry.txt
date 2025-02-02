@@ -5,7 +5,9 @@ technologies = {
 		enable_equipments = {
 			necron_gauss_flayer_0
 		}
-		
+		path = {
+			leads_to_tech = necron_gauss_flayer_tech_2
+		}
 		enable_subunits = {
 			necron_warriors
 		}	
@@ -14,7 +16,107 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = necron_infantry_folder
-			position = { x = -2 y = 1 }
+			position = { x = -2 y = 2 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_gauss_flayer_tech_2 = { # Усиленные Гаусс-Ячейки
+
+		category_necron_warriors = {
+			soft_attack = 0.2
+			attack = 0.2
+		}
+		path = {
+			leads_to_tech = necron_gauss_flayer_tech_3
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_gauss_flayer_tech_3 = { # Стабилизация Боевых Протоколов
+
+		category_necron_warriors = {
+			max_organisation = 15
+			supply_consumption = -0.2
+		}
+		path = {
+			leads_to_tech = necron_gauss_flayer_tech_4
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_gauss_flayer_tech_4 = { # Автоматизированные Ремонтные Протоколы
+
+		category_necron_warriors = {
+			reliability_factor = 0.2
+		}
+		category_necrons = {
+			casualty_trickleback = 0.4
+		}
+		path = {
+			leads_to_tech = necron_gauss_flayer_tech_5
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 4 y = 2 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_gauss_flayer_tech_5 = { # Улучшенные Протоколы Наслоения Огоня
+
+		category_necron_warriors = {
+			soft_attack = 0.3
+			hard_attack = 0.1
+			breakthrough = 0.3
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 6 y = 2 }
 		}
 		
 		categories = {
@@ -37,12 +139,105 @@ technologies = {
 			immortals
 			immortals_small
 		}	
-
+		path = {
+			leads_to_tech = necron_gauss_blaster_tech_2
+		}
 		research_cost = 1.5
 		start_year = 1936
 		folder = {
 			name = necron_infantry_folder
-			position = { x = -2 y = 5 }
+			position = { x = -2 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_gauss_blaster_tech_2 = { #Усиленные Гаусс-Бластеры
+		category_immortals = {
+			soft_attack = 0.25
+		}
+		path = {
+			leads_to_tech = necron_gauss_blaster_tech_3
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_gauss_blaster_tech_3 = { #Броневые Панцири Нейронного Сплава
+		category_immortals = {
+			armor_value = 2
+		}
+		path = {
+			leads_to_tech = necron_gauss_blaster_tech_4
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_gauss_blaster_tech_4 = { #Система Боевой Координации
+		category_immortals = {
+			max_organisation = 15
+			default_morale = 2
+		}
+		path = {
+			leads_to_tech = necron_gauss_blaster_tech_5
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 4 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_gauss_blaster_tech_5 = { #Оружейные Стабилизаторы
+		category_immortals = {
+			hard_attack = 0.2
+			breakthrough = 0.1
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 6 y = 6 }
 		}
 		
 		categories = {
@@ -59,7 +254,9 @@ technologies = {
 		enable_equipments = {
 			necron_tesla_carbine_0
 		}
-		
+		path = {
+			leads_to_tech = necron_tesla_carbine_tech_2
+		}
 		enable_subunits = {
 			immortals_tesla
 			immortals_tesla_small
@@ -69,7 +266,101 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = necron_infantry_folder
-			position = { x = -2 y = 8 }
+			position = { x = -2 y = 9 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_tesla_carbine_tech_2 = { #Высоковольтные Эмиттеры
+		category_immortals_tesla = {
+			soft_attack = 0.3
+		}
+		path = {
+			leads_to_tech = necron_tesla_carbine_tech_3
+		}	
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 0 y = 9 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_tesla_carbine_tech_3 = { #Устойчивые Арк-Катушки
+		category_immortals_tesla = {
+			reliability = 0.2
+		}
+		path = {
+			leads_to_tech = necron_tesla_carbine_tech_4
+		}	
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 2 y = 9 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_tesla_carbine_tech_4 = { #Системы Цепной Молнии
+		category_immortals_tesla = {
+			soft_attack = 0.2
+			hard_attack = -0.1
+		}
+		path = {
+			leads_to_tech = necron_tesla_carbine_tech_5
+		}	
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 4 y = 9 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_tesla_carbine_tech_5 = { #Режим перегрузки
+		category_immortals_tesla = {
+			breakthrough = 0.2
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 6 y = 9 }
 		}
 		
 		categories = {
@@ -86,7 +377,9 @@ technologies = {
 		enable_equipments = {
 			necron_swords_and_shields_0
 		}
-		
+		path = {
+			leads_to_tech = necron_swords_and_shields_tech_2
+		}
 		enable_subunits = {
 			lychguard_swords
 			lychguard_swords_small
@@ -96,7 +389,108 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = necron_infantry_folder
-			position = { x = -2 y = 12 }
+			position = { x = -2 y = 13 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_swords_and_shields_tech_2 = { #Расширенные Поле Щита
+
+		path = {
+			leads_to_tech = necron_swords_and_shields_tech_3
+		}
+		category_lychguard_swords = {
+			armor_value = 2
+			defence = 0.5
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 0 y = 13 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_swords_and_shields_tech_3 = { #Клинки Сингулярности
+
+		path = {
+			leads_to_tech = necron_swords_and_shields_tech_4
+		}
+		category_lychguard_swords = {
+			hard_attack = 0.4
+			soft_attack = 0.4
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 2 y = 13 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_swords_and_shields_tech_4 = { #Протокол Геройской Стойкости
+
+		path = {
+			leads_to_tech = necron_swords_and_shields_tech_5
+		}
+		category_lychguard_swords = {
+			max_organisation = 20
+			entrenchment = 0.2
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 4 y = 13 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_swords_and_shields_tech_5 = { #Командная Связь с Лордо
+
+		category_lychguard_swords = {
+			default_morale = 4
+			defence = 0.2
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 6 y = 13 }
 		}
 		
 		categories = {
@@ -108,12 +502,14 @@ technologies = {
 		}
 	}
 	### LYCHGUARD (Warscythe)
-	necron_necron_warscythe_tech_1 = {
+	necron_warscythe_tech_1 = {
 
 		enable_equipments = {
 			necron_warscythe_0
 		}
-		
+		path = {
+			leads_to_tech = necron_warscythe_tech_2
+		}
 		enable_subunits = {
 			lychguard_warscythe
 			lychguard_warscythe_small
@@ -123,7 +519,105 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = necron_infantry_folder
-			position = { x = -2 y = 15 }
+			position = { x = -2 y = 16 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_warscythe_tech_2 = { #Усиленые Варсайты
+
+		path = {
+			leads_to_tech = necron_warscythe_tech_3
+		}
+		category_lychguard_warscythe = {
+			soft_attack = 0.4
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_warscythe_tech_3 = { #Энергетические Конденсаторы
+
+		path = {
+			leads_to_tech = necron_warscythe_tech_4
+		}
+		category_lychguard_warscythe = {
+			breakthrough = 0.4
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 2 y = 16 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_warscythe_tech_4 = { #Протокол Карательного Выпада
+
+		path = {
+			leads_to_tech = necron_warscythe_tech_5
+		}
+		category_lychguard_warscythe = {
+			attack = 0.4
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 4 y = 16 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_warscythe_tech_5 = { #Протоколы быстрого сближения
+
+		category_lychguard_warscythe = {
+			maximum_speed = 1
+			initiative = 0.5
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 6 y = 16 }
 		}
 		
 		categories = {
@@ -135,12 +629,14 @@ technologies = {
 		}
 	}
 	###DEATHMARKS
-	necron_necron_synaptic_disintegrator_tech_1 = {
+	necron_synaptic_disintegrator_tech_1 = {
 
 		enable_equipments = {
 			necron_synaptic_disintegrator_0
 		}
-		
+		path = {
+			leads_to_tech = necron_synaptic_disintegrator_tech_2
+		}
 		enable_subunits = {
 			deathmarks
 			deathmarks_small
@@ -150,7 +646,109 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = necron_infantry_folder
-			position = { x = -2 y = 19 }
+			position = { x = -2 y = 20 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_synaptic_disintegrator_tech_2 = { #Система Фазовой Маскировки
+
+		path = {
+			leads_to_tech = necron_synaptic_disintegrator_tech_3
+		}
+		category_deathmarks = {
+			initiative = 0.2
+			recon = 0.2
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 0 y = 20 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_synaptic_disintegrator_tech_3 = { #Усиленные Фокусирующие Линзы
+
+		path = {
+			leads_to_tech = necron_synaptic_disintegrator_tech_4
+		}
+		category_deathmarks = {
+			soft_attack = 0.2
+			hard_attack = 0.2
+			ap_attack = 0.2
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 2 y = 20 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_synaptic_disintegrator_tech_4 = { #Нейронные Пси-Датчики
+
+		path = {
+			leads_to_tech = necron_synaptic_disintegrator_tech_5
+		}
+		category_deathmarks = {
+			soft_attack = 0.4
+			suppression_factor = 0.5
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 4 y = 20 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_synaptic_disintegrator_tech_5 = { #Протокол Синхронной Засады
+
+		category_deathmarks = {
+			soft_attack = 0.4
+			suppression_factor = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_infantry_folder
+			position = { x = 6 y = 20 }
 		}
 		
 		categories = {
@@ -162,22 +760,17 @@ technologies = {
 		}
 	}
 	###Flayed Ones
-	necron_necron_flayer_claws_tech_1 = {
+	necron_flayer_claws_tech_1 = {
 
 		enable_equipments = {
 			necron_flayer_claws_0
-		}
-		
-		enable_subunits = {
-			flayed_ones
-			flayed_ones_small
 		}	
 
 		research_cost = 1.5
 		start_year = 1936
 		folder = {
 			name = necron_infantry_folder
-			position = { x = -2 y = 23 }
+			position = { x = 2 y = 24 }
 		}
 		
 		categories = {

@@ -6,7 +6,7 @@ state={
 	
 	state_category = town
 	resources={
-		chromium=2 # was: 2
+		technologies=2 # was: 2
 	}
 	history={
 		owner = NEP

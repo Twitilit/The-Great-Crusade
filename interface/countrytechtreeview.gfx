@@ -1,5 +1,57 @@
 spriteTypes = {
-
+	spriteType = {
+		name = "GFX_glifs_1"
+		textureFile = "gfx//interface//glifs_1.dds"
+	}
+	spriteType = {
+		name = "GFX_glifs_2"
+		textureFile = "gfx//interface//glifs_2.dds"
+	}
+	spriteType = {
+		name = "GFX_glifs_3"
+		textureFile = "gfx//interface//glifs_3.dds"
+	}
+	spriteType = {
+		name = "GFX_glifs_4"
+		textureFile = "gfx//interface//glifs_4.dds"
+	}
+	spriteType = {
+		name = "GFX_glifs_5"
+		textureFile = "gfx//interface//glifs_5.dds"
+	}
+	spriteType = {
+		name = "GFX_glifs_6"
+		textureFile = "gfx//interface//glifs_6.dds"
+	}
+	spriteType = {
+		name = "GFX_glifs_7"
+		textureFile = "gfx//interface//glifs_7.dds"
+	}
+	spriteType = {
+		name = "GFX_glifs_8"
+		textureFile = "gfx//interface//glifs_8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_glifs_tier_1"
+		textureFile = "gfx//interface//glifs_tier_1.dds"
+	}
+	spriteType = {
+		name = "GFX_glifs_tier_2"
+		textureFile = "gfx//interface//glifs_tier_2.dds"
+	}
+	spriteType = {
+		name = "GFX_glifs_tier_3"
+		textureFile = "gfx//interface//glifs_tier_3.dds"
+	}
+	spriteType = {
+		name = "GFX_glifs_tier_4"
+		textureFile = "gfx//interface//glifs_tier_4.dds"
+	}
+	spriteType = {
+		name = "GFX_glifs_tier_5"
+		textureFile = "gfx//interface//glifs_tier_5.dds"
+	}
 	spriteType = {
 		name = "GFX_techtree_details_progress_bar_frame"
 		textureFile = "gfx//interface//techtree//techtree_details_progress_bar_frame.dds"

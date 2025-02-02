@@ -1,0 +1,37 @@
+resources = {
+	energy = {
+		icon_frame = 1
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	composite = {
+		icon_frame = 2
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	technologies = {
+		icon_frame = 3
+		cic = 0.125
+		convoys = 0.1
+	}
+	
+	biomaterials = {
+		icon_frame = 4
+		cic = 0.125
+		convoys = 0.1
+	}
+	
+	metals = {
+		icon_frame = 5
+		cic = 0.125
+		convoys = 0.1
+	}
+	
+	exotic_elements = {
+		icon_frame = 6
+		cic = 0.125
+		convoys = 0.1
+	}
+}

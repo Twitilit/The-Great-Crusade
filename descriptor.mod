@@ -1,5 +1,6 @@
 version="0.0.1"
 replace_path="history/states"
+replace_path="common/resources"
 replace_path="map/strategicregions"
 tags={
 	"Alternative History"

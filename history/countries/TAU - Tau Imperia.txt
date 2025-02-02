@@ -21,6 +21,6 @@ set_popularities = {
 }
 create_country_leader = {
 	name = Аун'Ге
-	picture = "gfx/leaders/(вставить)"
-	ideology = communism
+	picture = "gfx/leaders/TAU/Aun'Ge.dds"
+	ideology = marxism
 }

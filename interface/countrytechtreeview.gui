@@ -3789,11 +3789,11 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "necrons_subtitle_warriors"
-					position = { x = 200 y = 70 }
+					position = { x = 220 y = 90 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "warhammer_33"
 					borderSize = { x = 0 y = 0}
-					text = "NECRONS_INFANTRY_TITLE_WARRIORS"
+					text = "WARRIORS"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
@@ -3801,67 +3801,134 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "necrons_infantry_tier1"
-					position = { x = 50 y = 170 }
+					name = "necrons_subtitle_immortals"
+					position = { x = 600 y = 90 }
 					textureFile = ""
-					font = "hoi_36header"
+					font = "warhammer_33"
 					borderSize = { x = 0 y = 0}
-					text = "TIER I"
-					maxWidth = 170
-					maxHeight = 32
+					text = "IMMORTALS"
+					maxWidth = 600
+					maxHeight = 62
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
 
 				instantTextBoxType = {
-					name = "necrons_infantry_tier2"
-					position = { x = 50 y = 300 }
+					name = "necrons_subtitle_lychguard"
+					position = { x = 1100 y = 90 }
 					textureFile = ""
-					font = "hoi_36header"
+					font = "warhammer_33"
 					borderSize = { x = 0 y = 0}
-					text = "TIER II"
-					maxWidth = 170
-					maxHeight = 32
+					text = "LYCHGUARD"
+					maxWidth = 600
+					maxHeight = 62
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
 
 				instantTextBoxType = {
-					name = "necrons_infantry_tier3"
-					position = { x = 50 y = 430 }
-					font = "hoi_36header"
+					name = "necrons_subtitle_deathmarks"
+					position = { x = 1465 y = 90 }
+					textureFile = ""
+					font = "warhammer_33"
 					borderSize = { x = 0 y = 0}
-					text = "TIER III"
-					maxWidth = 170
-					maxHeight = 32
+					text = "DEATHMARKS"
+					maxWidth = 600
+					maxHeight = 62
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
 
 				instantTextBoxType = {
-					name = "necrons_infantry_tier4"
-					position = { x = 50 y = 560 }
-					font = "hoi_36header"
+					name = "necrons_subtitle_flayed_ones"
+					position = { x = 1800 y = 360 }
+					textureFile = ""
+					font = "warhammer_33"
 					borderSize = { x = 0 y = 0}
-					text = "TIER IV"
-					maxWidth = 170
-					maxHeight = 32
+					text = "FLAYED"
+					maxWidth = 600
+					maxHeight = 62
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
+			}
 
-				instantTextBoxType = {
-					name = "necrons_infantry_tier5"
-					position = { x = 50 y = 690 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "TIER V"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
+			iconType = {
+				name = "Glifs_1_icon"
+				spriteType = "GFX_glifs_1"
+				position = { x=415 y=150}
+			}
 
+			iconType = {
+				name = "Glifs_2_icon"
+				spriteType = "GFX_glifs_2"
+				position = { x=190 y=250}
+			}
+
+			iconType = {
+				name = "Glifs_3_icon"
+				spriteType = "GFX_glifs_3"
+				position = { x=660 y=250}
+			}
+
+			iconType = {
+				name = "Glifs_4_icon"
+				spriteType = "GFX_glifs_4"
+				position = { x=190 y=0}
+			}
+
+			iconType = {
+				name = "Glifs_5_icon"
+				spriteType = "GFX_glifs_5"
+				position = { x=1150 y=245}
+			}
+
+			iconType = {
+				name = "Glifs_6_icon"
+				spriteType = "GFX_glifs_6"
+				position = { x=900 y=150}
+			}
+
+			iconType = {
+				name = "Glifs_7_icon"
+				spriteType = "GFX_glifs_7"
+				position = { x=1390 y=150}
+			}
+
+			iconType = {
+				name = "Glifs_8_icon"
+				spriteType = "GFX_glifs_8"
+				position = { x=1680 y=350}
+			}
+
+			iconType = {
+				name = "Glifs_tier_1_icon"
+				spriteType = "GFX_glifs_tier_1"
+				position = { x=10 y=140}
+			}
+
+			iconType = {
+				name = "Glifs_tier_2_icon"
+				spriteType = "GFX_glifs_tier_2"
+				position = { x=10 y=285}
+			}
+
+			iconType = {
+				name = "Glifs_tier_3_icon"
+				spriteType = "GFX_glifs_tier_3"
+				position = { x=10 y=425}
+			}
+
+			iconType = {
+				name = "Glifs_tier_4_icon"
+				spriteType = "GFX_glifs_tier_4"
+				position = { x=10 y=565}
+			}
+
+			iconType = {
+				name = "Glifs_tier_5_icon"
+				spriteType = "GFX_glifs_tier_5"
+				position = { x=10 y=705}
 			}
 
 			iconType = {
@@ -3901,21 +3968,21 @@ guiTypes = {
 
 			}
 			gridboxtype = {
-				name = "necron_necron_warscythe_tech_1_tree"
+				name = "necron_warscythe_tech_1_tree"
 				position = { x = 140 y = 325 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 
 			}
 			gridboxtype = {
-				name = "necron_necron_synaptic_disintegrator_tech_1_tree"
+				name = "necron_synaptic_disintegrator_tech_1_tree"
 				position = { x = 140 y = 325 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 
 			}
 			gridboxtype = {
-				name = "necron_necron_flayer_claws_tech_1_tree"
+				name = "necron_flayer_claws_tech_1_tree"
 				position = { x = 140 y = 325 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"

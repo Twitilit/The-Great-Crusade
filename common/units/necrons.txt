@@ -10,6 +10,8 @@ sub_units = {
 		}
 		group = infantry
 		categories = {
+			category_necrons
+			category_necron_warriors
 			category_front_line
 			category_light_infantry
 			category_all_infantry
@@ -41,6 +43,8 @@ sub_units = {
 		}
 		group = infantry
 		categories = {
+			category_necrons
+			category_immortals
 			category_front_line
 			category_light_infantry
 			category_all_infantry
@@ -73,6 +77,8 @@ sub_units = {
 		}
 		group = combat_support
 		categories = {
+			category_necrons
+			category_immortals
 			category_front_line
 			category_light_infantry
 			category_all_infantry
@@ -105,6 +111,8 @@ sub_units = {
 		}
 		group = infantry
 		categories = {
+			category_necrons
+			category_immortals_tesla
 			category_front_line
 			category_light_infantry
 			category_all_infantry
@@ -137,6 +145,8 @@ sub_units = {
 		}
 		group = combat_support
 		categories = {
+			category_necrons
+			category_immortals_tesla
 			category_front_line
 			category_light_infantry
 			category_all_infantry
@@ -169,6 +179,8 @@ sub_units = {
 		}
 		group = infantry
 		categories = {
+			category_necrons
+			category_lychguard_swords
 			category_front_line
 			category_light_infantry
 			category_all_infantry
@@ -201,6 +213,8 @@ sub_units = {
 		}
 		group = combat_support
 		categories = {
+			category_necrons
+			category_lychguard_swords
 			category_front_line
 			category_light_infantry
 			category_all_infantry
@@ -233,6 +247,8 @@ sub_units = {
 		}
 		group = infantry
 		categories = {
+			category_necrons
+			category_lychguard_warscythe
 			category_front_line
 			category_light_infantry
 			category_all_infantry
@@ -265,6 +281,8 @@ sub_units = {
 		}
 		group = combat_support
 		categories = {
+			category_necrons
+			category_lychguard_warscythe
 			category_front_line
 			category_light_infantry
 			category_all_infantry
@@ -297,6 +315,8 @@ sub_units = {
 		}
 		group = infantry
 		categories = {
+			category_necrons
+			category_deathmarks
 			category_front_line
 			category_light_infantry
 			category_all_infantry
@@ -329,6 +349,8 @@ sub_units = {
 		}
 		group = combat_support
 		categories = {
+			category_necrons
+			category_deathmarks
 			category_front_line
 			category_light_infantry
 			category_all_infantry
@@ -361,6 +383,8 @@ sub_units = {
 		}
 		group = infantry
 		categories = {
+			category_necrons
+			category_flayed_ones
 			category_front_line
 			category_light_infantry
 			category_all_infantry
@@ -393,6 +417,8 @@ sub_units = {
 		}
 		group = combat_support
 		categories = {
+			category_necrons
+			category_flayed_ones
 			category_front_line
 			category_light_infantry
 			category_all_infantry
