@@ -7,8 +7,8 @@ state = {
 	state_category = pastoral
 	
 	resources = {
-		technologies = 40 # was: 44
-		composite = 27 # was: 30
+		chromium = 40 # was: 44
+		aluminium = 27 # was: 30
 	}
 
 	history = {

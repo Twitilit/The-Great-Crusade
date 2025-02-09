@@ -1,35 +1,36 @@
 resources = {
-	energy = {
+
+	oil = { ##ENERGY
 		icon_frame = 1
 		cic = 0.125
 		convoys = 0.1
 	}
 
-	composite = {
+	aluminium = { ###COMPOSITE
 		icon_frame = 2
 		cic = 0.125
 		convoys = 0.1
 	}
 
-	technologies = {
+	rubber = { ###BIOMATERIALS
 		icon_frame = 3
 		cic = 0.125
 		convoys = 0.1
 	}
 	
-	biomaterials = {
+	tungsten = { ##EXOTIC_MINERALS
 		icon_frame = 4
 		cic = 0.125
 		convoys = 0.1
 	}
 	
-	metals = {
+	steel = { ##METALS
 		icon_frame = 5
 		cic = 0.125
 		convoys = 0.1
 	}
 	
-	exotic_elements = {
+	chromium = { ###TECHNOLOGIES
 		icon_frame = 6
 		cic = 0.125
 		convoys = 0.1

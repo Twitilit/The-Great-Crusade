@@ -7,8 +7,8 @@ state = {
 	manpower = 854300
 
 	resources = {
-		metals = 13 # was: 20
-		technologies = 3 # was: 4
+		steel = 13 # was: 20
+		chromium = 3 # was: 4
 	}
 	
 	state_category = town

@@ -6,7 +6,7 @@ state = {
 	state_category = pastoral
 
 	resources = {
-		energy = 2
+		oil = 2
 	}
 
 	history = {

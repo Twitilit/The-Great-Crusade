@@ -6,8 +6,8 @@ state = {
 	manpower = 690045 #was 1380089
 
 	resources = {
-		technologies = 18 # was: 64.000, then 35
-		exotic_elements = 4 # was: 16.000, then 8
+		chromium = 18 # was: 64.000, then 35
+		tungsten = 4 # was: 16.000, then 8
 	}
 
 	history = {

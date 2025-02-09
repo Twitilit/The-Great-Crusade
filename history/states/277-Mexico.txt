@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	resources={
-		metals=6 #was 2 before Mexican metals production was centralized to allow energy concessions
+		steel=6 #was 2 before Mexican steel production was centralized to allow oil concessions
 	}
 	
 	history={

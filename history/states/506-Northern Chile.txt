@@ -6,7 +6,7 @@ state = {
 	state_category = town
 
 	resources = {
-		exotic_elements = 42 # In replacement of Nitrate
+		tungsten = 42 # In replacement of Nitrate
 	}
 
 	history = {

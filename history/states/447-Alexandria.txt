@@ -4,9 +4,9 @@ state={
 	name="STATE_447"
 	manpower = 3859239
 	resources={
-		energy=1 # was: 2
-		exotic_elements = 3 #maganese
-		metals = 3 #Maganese
+		oil=1 # was: 2
+		tungsten = 3 #maganese
+		steel = 3 #Maganese
 		
 	}
 	

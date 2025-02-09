@@ -5,9 +5,9 @@ state = {
 	manpower = 3163600
 
 	resources = {
-		metals = 8 
-		exotic_elements = 8 
-		technologies = 4
+		steel = 8 
+		tungsten = 8 
+		chromium = 4
 	} #Maganese
 
 	history = {

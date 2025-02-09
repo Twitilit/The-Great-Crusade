@@ -3,9 +3,9 @@ state = {
 	id = 44
 	name = "STATE_44"
 	resources = {
-		composite = 1.000
-		technologies = 1.000
-		energy = 4.000
+		aluminium = 1.000
+		chromium = 1.000
+		oil = 4.000
 	}
 
 	history = {

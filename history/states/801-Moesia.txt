@@ -26,7 +26,7 @@ state={
 		3796 3819 3952 6842 9610 9612 
 	}
 #	resources={
-#		energy=1
+#		oil=1
 #	}
 
 	local_supplies=0.0 

@@ -7,7 +7,7 @@ state = {
 	state_category = pastoral
 	
 	resources = {
-		exotic_elements = 5
+		tungsten = 5
 	}
 
 	history = {
