@@ -1,0 +1,48 @@
+objectTypes = {
+	pdxmesh = {
+		name = "necron_scarab_engineer_mesh"
+		file = "gfx/models/units/necrons/necron_scarab_engineer.mesh"
+		
+		animation = {
+			id = "idle"
+			type = "necron_builder_scarab_idle_anim"
+		}
+		animation = {
+			id = "idle2"
+			type = "necron_builder_scarab_idle_2_anim"
+		}
+		animation = {
+			id = "idle3"
+			type = "necron_builder_scarab_idle_3_anim"
+		}
+		animation = {
+			id = "idle4"
+			type = "necron_builder_scarab_idle_4_anim"
+		}
+		animation = {
+			id = "move"
+			type = "necron_builder_scarab_move_1_anim"
+		}
+
+		animation = {
+			id = "attack1"
+			type = "necron_builder_scarab_attack_1_anim"
+		}
+		animation = {
+			id = "attack2"
+			type = "necron_builder_scarab_attack_2_anim"
+		}
+		animation = {
+			id = "death"
+			type = "necron_builder_scarab_die_anim"
+		}
+		meshsettings = {
+			name = "necron_builderscarab_pdxmaterial"
+			index = 0
+			texture_diffuse = "necron_builder_scarab.dds"
+			#texture_normal = "nec_warrior_normal.dds"
+			#texture_specular = "nec_warrior_spec.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+}

@@ -1,0 +1,412 @@
+technologies = {
+	###MANCERS
+	necron_technomancer_tech = {
+
+		enable_equipments = {
+			necron_technomancer
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_support_folder
+			position = { x = 1 y = 15 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_chronomancer_tech = {
+
+		enable_equipments = {
+			necron_chronomancer
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_support_folder
+			position = { x = 1 y = 5 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_psychomancer_tech = {
+
+		enable_equipments = {
+			necron_psychomancer
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_support_folder
+			position = { x = 9 y = 5 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_plasmancer_tech = {
+
+		enable_equipments = {
+			necron_plasmancer
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_support_folder
+			position = { x = 9 y = 15 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	###SCARAB
+	necron_scarab_tech_1 = {
+
+		enable_equipments = {
+			necron_scarabs
+		}
+		path = {
+			leads_to_tech = necron_scarab_recon_tech_1
+		}
+		path = {
+			leads_to_tech = necron_scarab_engineer_tech_1
+		}
+		path = {
+			leads_to_tech = necron_scarab_reanimator_tech_1
+		}
+		path = {
+			leads_to_tech = necron_scarab_tech_2
+		}
+		enable_subunits = {
+			scarabs_attack
+			scarabs_recon
+			scarabs_engineer
+			scarabs_reanimator
+		}	
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_support_folder
+			position = { x = 5 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_scarab_tech_2 = {
+
+		path = {
+			leads_to_tech = necron_scarab_tech_3
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_support_folder
+			position = { x = 7 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_scarab_tech_3 = {
+
+		path = {
+			leads_to_tech = necron_scarab_tech_4
+		}
+		path = {
+			leads_to_tech = necron_psychomancer_tech
+		}
+		path = {
+			leads_to_tech = necron_plasmancer_tech
+		}
+		enable_equipments = {
+			tomb_spyder_equipment_0
+		}
+		enable_subunits = {
+			tomb_spyder
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_support_folder
+			position = { x = 9 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_scarab_tech_4 = {
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_support_folder
+			position = { x = 11 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	###REANIMATOR
+	necron_scarab_reanimator_tech_1 = {
+
+		path = {
+			leads_to_tech = necron_scarab_reanimator_tech_2
+		}	
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_support_folder
+			position = { x = 5 y = 12 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_scarab_reanimator_tech_2 = {
+
+		path = {
+			leads_to_tech = necron_scarab_reanimator_tech_3
+		}
+		path = {
+			leads_to_tech = necron_technomancer_tech
+		}
+		path = {
+			leads_to_tech = necron_plasmancer_tech
+		}
+		enable_equipments = {
+			necron_reanimator
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_support_folder
+			position = { x = 5 y = 15 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_scarab_reanimator_tech_3 = {
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_support_folder
+			position = { x = 5 y = 17 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	###ENGINEER
+	necron_scarab_engineer_tech_1 = {
+
+		path = {
+			leads_to_tech = necron_scarab_engineer_tech_2
+		}	
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_support_folder
+			position = { x = 3 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_scarab_engineer_tech_2 = {
+
+		path = {
+			leads_to_tech = necron_scarab_engineer_tech_3
+		}
+		path = {
+			leads_to_tech = necron_technomancer_tech
+		}
+		path = {
+			leads_to_tech = necron_chronomancer_tech
+		}
+		enable_equipments = {
+			criptecks
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_support_folder
+			position = { x = 1 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_scarab_engineer_tech_3 = {
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_support_folder
+			position = { x = -1 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	###RECONS
+	necron_scarab_recon_tech_1 = {
+
+		path = {
+			leads_to_tech = necron_scarab_recon_tech_2
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_support_folder
+			position = { x = 5 y = 8 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_scarab_recon_tech_2 = {
+
+		path = {
+			leads_to_tech = necron_scarab_recon_tech_3
+		}
+		path = {
+			leads_to_tech = necron_chronomancer_tech
+		}
+		path = {
+			leads_to_tech = necron_psychomancer_tech
+		}
+		enable_equipments = {
+			wraith
+		}
+		enable_subunits = {
+			wraiths
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_support_folder
+			position = { x = 5 y = 5 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	necron_scarab_recon_tech_3 = {
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = necron_support_folder
+			position = { x = 5 y = 3 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

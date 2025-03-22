@@ -1,0 +1,211 @@
+sub_units = { 
+	scarabs_attack = {
+		sprite = necron_scarabs
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+			support
+		}
+		group = combat_support
+		categories = {
+			category_necrons
+			category_immortals
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			necron_scarabs = 200
+		}
+	}
+
+	tomb_spyder = {
+		sprite = tomb_spyder
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+			support
+		}
+		group = combat_support
+		categories = {
+			category_necrons
+			category_immortals
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			tomb_spyder_equipment = 200
+		}
+	}
+
+	wraiths = {
+		sprite = necron_wraith
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+			support
+		}
+		group = combat_support
+		categories = {
+			category_necrons
+			category_immortals
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			wraith = 200
+		}
+	}
+
+	scarabs_recon = {
+		sprite = necron_scarabs
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+			support
+		}
+		group = combat_support
+		categories = {
+			category_necrons
+			category_immortals
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			necron_scarabs = 200
+		}
+	}
+
+	scarabs_reanimator = {
+		sprite = necron_scarabs
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+			support
+		}
+		group = combat_support
+		categories = {
+			category_necrons
+			category_immortals
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			necron_scarabs = 200
+		}
+	}
+
+	scarabs_engineer = {
+		sprite = necron_scarabs
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 100
+		active = no
+		type = {
+			infantry
+			support
+		}
+		group = combat_support
+		categories = {
+			category_necrons
+			category_immortals
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		combat_width = 2
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1000		#1000
+		#Misc Abilities
+		training_time = 85
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.17
+		need = {
+			necron_scarabs = 200
+		}
+	}
+}

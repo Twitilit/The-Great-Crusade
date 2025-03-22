@@ -1,0 +1,52 @@
+objectTypes = {
+	pdxmesh = {
+		name = "necron_wraith_mesh"
+		file = "gfx/models/units/necrons/necron_wraith.mesh"
+		
+		animation = {
+			id = "idle"
+			type = "necron_wraith_idle_anim"
+		}
+		animation = {
+			id = "idle2"
+			type = "necron_wraith_idle_2_anim"
+		}
+		animation = {
+			id = "idle3"
+			type = "necron_wraith_idle_3_anim"
+		}
+		animation = {
+			id = "idle4"
+			type = "necron_wraith_idle_4_anim"
+		}
+		animation = {
+			id = "idle5"
+			type = "necron_wraith_idle_5_anim"
+		}
+		animation = {
+			id = "move"
+			type = "necron_wraith_move_anim"
+		}
+
+		animation = {
+			id = "attack1"
+			type = "necron_wraith_attack_1_anim"
+		}
+		animation = {
+			id = "attack2"
+			type = "necron_wraith_attack_2_anim"
+		}
+		animation = {
+			id = "death"
+			type = "necron_wraith_die_anim"
+		}
+		meshsettings = {
+			name = "necron_wriath_pdxmaterial"
+			index = 0
+			texture_diffuse = "necron_wraith.dds"
+			#texture_normal = "nec_wraith_normal.dds"
+			#texture_specular = "nec_wraith_spec.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+}

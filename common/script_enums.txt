@@ -668,4 +668,22 @@ script_enum_equipment_bonus_type = {
 	necron_flayer_claws
 	necron_flayer_claws_0
 	necron_flayer_claws_1
+	necron_scarabs
+	necron_scarabs_0
+	tomb_stalkers
+	tomb_stalkers_0
+	criptecks
+	criptecks_0
+	necron_reanimator
+	necron_reanimator_0
+	tomb_spyder_equipment
+	tomb_spyder_equipment_0
+	necron_chronomancer
+	necron_chronomancer_0
+	necron_technomancer
+	necron_technomancer_0
+	necron_psychomancer
+	necron_psychomancer_0
+	necron_plasmancer
+	necron_plasmancer_0
 }
